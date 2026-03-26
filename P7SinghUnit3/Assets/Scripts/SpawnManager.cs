@@ -3,7 +3,7 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
 
-    public GameObject obsticalPrefab;
+    public GameObject obstaclePrefab;
     private Vector3 spawnPos = new Vector3(25, 0, 0);
     private float startDelay = 2;
     private float repeatRate = 2;
@@ -22,6 +22,6 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnObstacle ()
     {
-        Instantiate(obsticalPrefab, spawnPos, obsticalPrefab.transform.rotation);
+        Instantiate(obstaclePrefab, spawnPos, obstaclePrefab.transform.rotation);
     }
 }

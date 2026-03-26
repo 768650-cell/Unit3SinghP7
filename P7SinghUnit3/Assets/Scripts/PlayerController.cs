@@ -6,7 +6,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody playerRb;
     public float jumpForce = 10;
     public float gravityModifier;
-   
+    internal bool gameOver;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
