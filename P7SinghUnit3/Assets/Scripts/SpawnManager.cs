@@ -12,6 +12,7 @@ public class SpawnManager : MonoBehaviour
     void Start()
     {
         InvokeRepeating("SpawnObstacle", startDelay, repeatRate);
+        
     }
 
     // Update is called once per frame

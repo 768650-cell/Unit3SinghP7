@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class RepeatingBackground : MonoBehaviour
+public class RepeatiBackground : MonoBehaviour
 {
 
     private Vector3 startPos;
